@@ -1,0 +1,30 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  /* This CSS assumes you're using Bootstrap for dropdown functionality */
+li {
+    list-style: none;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  li:hover .dropdown-menu {
+    display: block;
+  }
+
+  li:hover {
+    background-color: #ffc107;
+  }
+  
+  .navigation-menu {
+    font-family: 'Rubik', sans-serif;
+  }
