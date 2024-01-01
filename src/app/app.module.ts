@@ -10,13 +10,15 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './userSide/home-page/home-page.component';
 import { UserHeaderComponent } from './userSide/user-header/user-header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgrxPComponent } from './userSide/ngrx-p/ngrx-p.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    UserHeaderComponent
+    UserHeaderComponent,
+    NgrxPComponent
   ],
   imports: [
     BrowserModule,
